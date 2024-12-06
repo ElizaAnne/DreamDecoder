@@ -16,5 +16,5 @@ This project implements a custom Transformer model using PyTorch. It includes tr
 2. **Run the Docker Image**
 
     ```bash
-    docker run -it --rm transformer_project
+    docker run -it --rm -v $(pwd)/src:/app/src transformer_project
 
